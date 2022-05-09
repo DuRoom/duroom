@@ -1,0 +1,45 @@
+{
+    "name": "duroom/duroom",
+    "description": "Delightfully simple forum software.",
+    "type": "project",
+    "keywords": [
+        "forum",
+        "discussion"
+    ],
+    "homepage": "https://duroom.js.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NKDuy",
+            "email": "kn145660@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/DuRoom/core/issues",
+        "source": "https://github.com/DuRoom/duroom",
+        "docs": "https://duroom.js.org/docs/"
+    },
+    "require": {
+        "duroom/core": "^1.2",
+        "duroom/approval": "*",
+        "duroom/bbcode": "*",
+        "duroom/emoji": "*",
+        "duroom/lang-english": "*",
+        "duroom/flags": "*",
+        "duroom/likes": "*",
+        "duroom/lock": "*",
+        "duroom/markdown": "*",
+        "duroom/mentions": "*",
+        "duroom/nicknames": "*",
+        "duroom/pusher": "*",
+        "duroom/statistics": "*",
+        "duroom/sticky": "*",
+        "duroom/subscriptions": "*",
+        "duroom/suspend": "*",
+        "duroom/tags": "*"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
